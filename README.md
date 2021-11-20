@@ -9,7 +9,7 @@ Model: LSTM RNN
 Features to compare: Previous 10 day prices vs Previous 10 day Crypto Fear and Greed Index (FNG)
 Target: Close price of bitcoin
 Metrics: Mean squared error (MSE)
-Parameters:
+Parameters|    
 ---|:---:
 No of layers|3
 No of neurons|30
