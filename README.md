@@ -1,6 +1,6 @@
 # unit_14_homework
 
-##Past prices or Fear and greed - which is a better indicator?
+## Past prices or Fear and greed - which is a better indicator?
 
 We constructed a neural network to predict a future price of bitcoin.
 The particulars are:
@@ -11,17 +11,19 @@ Target: Close price of bitcoin
 Metrics: Mean squared error (MSE)
 Parameters:
 1st Header|2nd Header
+---|:---:
 No of layers|3
 No of neurons|30
 No of epochs|80
 Batch size|8
 
-##Previous prices
+## Previous prices
 
 MSE for 10 days = 0.00473
 
 MSE for other windows
 1st Header|2nd Header
+---|:---:
 9 days|0.00444
 8 days|0.00654
 7 days|0.00516
@@ -32,7 +34,7 @@ MSE for other windows
 2 days|0.00415
 1 day|0.00214
 
-##FNG
+## FNG
 
 MSE for 10 days = 0.1179
 
@@ -48,7 +50,7 @@ MSE for other windows
 2 days|0.1282
 1 day|0.1227
 
-##Conclusion
+## Conclusion
 The model with previous prices as a feature performed far better than the one with FNG.  Since this is a regression model, it can be easily understood that</ br>
 previous prices make a better model. But if we buid a binary calssification model (i.e. price will go up or down), a model with FNG may deliver better results.</ br>
 In terms of experiment with different windows, for the previous price model, as you can imagine, a very short window such as two days and one day performed very well.</ br>
