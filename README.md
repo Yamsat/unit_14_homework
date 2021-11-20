@@ -10,7 +10,6 @@ Features to compare: Previous 10 day prices vs Previous 10 day Crypto Fear and G
 Target: Close price of bitcoin
 Metrics: Mean squared error (MSE)
 Parameters:
-1st Header|2nd Header
 ---|:---:
 No of layers|3
 No of neurons|30
@@ -22,7 +21,7 @@ Batch size|8
 MSE for 10 days = 0.00473
 
 MSE for other windows
-1st Header|2nd Header
+Days|MSE
 ---|:---:
 9 days|0.00444
 8 days|0.00654
@@ -39,7 +38,8 @@ MSE for other windows
 MSE for 10 days = 0.1179
 
 MSE for other windows
-1st Header|2nd Header
+Days|MSE
+---|:---:
 9 days|0.1225
 8 days|0.1203
 7 days|0.1198
