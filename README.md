@@ -51,9 +51,9 @@ Days|MSE
 1 day|0.1227
 
 ## Conclusion
-The model with previous prices as a feature performed far better than the one with FNG.  Since this is a regression model, it can be easily understood that</ br>
-previous prices make a better model. But if we buid a binary calssification model (i.e. price will go up or down), a model with FNG may deliver better results.</ br>
-In terms of experiment with different windows, for the previous price model, as you can imagine, a very short window such as two days and one day performed very well.</ br>
+The model with previous prices as a feature performed far better than the one with FNG.  Since this is a regression model, it can be easily understood that
+previous prices make a better model. But if we buid a binary calssification model (i.e. price will go up or down), a model with FNG may deliver better results.
+In terms of experiment with different windows, for the previous price model, as you can imagine, a very short window such as two days and one day performed very well.
 Other than that, the 10 day window perfomed the best in my model. For FNG the 10 day window model delivered the best result.
 
 
