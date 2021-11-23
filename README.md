@@ -5,10 +5,10 @@
 We constructed a neural network to predict a future price of bitcoin.
 The particulars are:
 
-Model: LSTM RNN
-Features to compare: Previous 10 day prices vs Previous 10 day Crypto Fear and Greed Index (FNG)
-Target: Close price of bitcoin
-Metrics: Mean squared error (MSE)
+Model: LSTM RNN <br />
+Features to compare: Previous 10 day prices vs Previous 10 day Crypto Fear and Greed Index (FNG) <br />
+Target: Close price of bitcoin <br />
+Metrics: Mean squared error (MSE) <br />
 Parameters|No 
 ---|:---:
 No of layers|3
